@@ -1,0 +1,64 @@
+.main-todo-container {
+  background-color: #d1f7f9;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  color: #661df5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+
+  text-decoration: underline;
+}
+.form-container {
+  background-color: blanchedalmond;
+  align-self: center;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  width: 40%;
+}
+
+.add-button {
+  background-color: #0089fa;
+  border-color: #0089fa;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  color: #d1f7f9;
+}
+.input-Element {
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 20px;
+}
+
+.todoList-heading {
+  font-family: cursive;
+  color: #f1566f;
+  text-decoration: underline;
+}
+.todos-container {
+  margin-top: 20px;
+  background-color: #fdfdce;
+  align-self: center;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  width: 90%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,62 @@
+.todo-item {
+  display: flex;
+  background-color: #fae4ff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.todo-item-done {
+  display: flex;
+  background-color: #7ef4c3;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.checkbox {
+  width: 20px;
+}
+
+.todo-text {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: roboto;
+  font-weight: bold;
+}
+.remove-button {
+  border-width: 0px;
+  padding: 0px;
+  font-size: 30px;
+  background-color: transparent;
+  align-self: center;
+}
+.edit-button {
+  background-color: #0089fa;
+  border-color: #0089fa;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  color: #d1f7f9;
+}
+
+.edit-button-container {
+  align-self: center;
+  margin-left: auto;
+}
+
+.popup {
+  background-color: #cecece;
+  padding: 20px;
+  border-radius: 15px;
+
+  text-align: center;
+}
+.input {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 15px;
+}
