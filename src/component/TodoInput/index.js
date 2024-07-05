@@ -4,14 +4,17 @@ import TodoItem from "../TodoItem";
 import "./index.css";
 
 const TodoInput = () => {
+  // state for input todo
   const [input, changeInput] = useState("");
 
+  // updating input todo
   const onChangeInput = (e) => {
     changeInput(e.target.value);
   };
 
   const [list, changeList] = useState([]);
 
+  // add to todo list
   const onClickAdd = (e) => {
     e.preventDefault();
     const newTodo = {
@@ -24,6 +27,7 @@ const TodoInput = () => {
     changeInput("");
   };
 
+   // add to todo list
   const onClickEnter = (e) => {
     if (e.key === "Enter") {
       e.preventDefault();
@@ -38,11 +42,13 @@ const TodoInput = () => {
     }
   };
 
+  //delete todo from list
   const deleteTodo = (id) => {
     const newList = list.filter((i) => i.id !== id);
     changeList(newList);
   };
 
+   //Edit todo from todolist
   const onEditTodo = (id, text) => {
     const currItem = list.filter((i) => i.id === id);
     currItem[0].todo = text;
