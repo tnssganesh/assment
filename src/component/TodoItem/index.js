@@ -8,19 +8,23 @@ const TodoItem = (props) => {
   const { todos, deleteTodo, onEditTodo } = props;
   const { id, todo, isDone } = todos;
 
+ // delete todo method
   const onDelete = () => {
     deleteTodo(id);
   };
 
+ // up todo on todo List
   const onEdit = () => {
     //   console.log("hi");
     onEditTodo(id, input);
   };
 
+    // edit todo method
   const editedTodo = (e) => {
     changeInput(e.target.value);
   };
 
+  // todo is completed or incompleted
   const checkedToggle = () => {
     uncheckCheck((pre) => !pre);
   };
